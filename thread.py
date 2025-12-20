@@ -1,7 +1,7 @@
 import threading
 
 counter = 0
-lock = threading.Lock()
+# lock = threading.Lock()
 
 def worker(n):
     global counter
